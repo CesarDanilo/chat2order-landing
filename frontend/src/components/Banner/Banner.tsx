@@ -16,6 +16,7 @@ export function Banner() {
           items-center
           justify-center
           fade-up delay-2 
+          mb-16
         "
       >
       </div>

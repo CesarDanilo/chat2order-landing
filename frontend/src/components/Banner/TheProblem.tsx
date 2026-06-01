@@ -45,7 +45,7 @@ export function TheProblem() {
   ]
 
   return (
-    <div className="w-full mx-16" >
+    <div className="w-full mx-16 mb-16" >
       <div className="flex flex-col w-2xl items-start justify-center mt-16 gap-1 fade-up delay-2 ">
         <h2 className="text-base text-sky-600 font-medium mb-4">O PROBLEMA</h2>
         <p className="max-w-4xl text-5xl font-medium leading-tight tracking-tight text-white md:text-5xl">O WhatsApp não foi feito para gerenciar sua operação.</p>
