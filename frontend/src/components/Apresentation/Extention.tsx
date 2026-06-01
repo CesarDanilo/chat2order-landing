@@ -89,7 +89,7 @@ export function Extention() {
         >
         </div>
       </div>
-      <div className="flex flex-wrap justify-center gap-8">
+      <div className="flex flex-wrap justify-between gap-8 px-8 fade-up delay-3">
         {extencion_content.map((content, index) => (
           <CardExtencion
             key={index}

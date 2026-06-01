@@ -4,7 +4,7 @@ export function CardExtencion({ icon, title, description }: ExtentionProps) {
   return (
     <div
       className="
-        w-[260px]
+        w-[360px]
         rounded-2xl
         border
         border-sky-500/10
@@ -16,7 +16,7 @@ export function CardExtencion({ icon, title, description }: ExtentionProps) {
         hover:shadow-[0_0_40px_rgba(14,165,233,0.08)]
       "
     >
-      <div className="mb-4">
+      <div className="mb-4 hover:text-sky-500 transition-colors duration-300">
         {icon}
       </div>
 
