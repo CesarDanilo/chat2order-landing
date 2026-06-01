@@ -1,1 +1,45 @@
-@import "tailwindcss";
+.background-grid {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+
+  background-color: #030712;
+
+  background-image:
+    linear-gradient(
+      rgba(255,255,255,0.03) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(255,255,255,0.03) 1px,
+      transparent 1px
+    );
+
+  background-size: 48px 48px;
+}
+
+.background-grid::before {
+  content: '';
+
+  position: absolute;
+
+  top: -250px;
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  width: 1200px;
+  height: 1200px;
+
+  border-radius: 9999px;
+
+  background: radial-gradient(
+    circle,
+    rgba(0, 153, 255, 0.22) 0%,
+    rgba(0, 153, 255, 0.08) 40%,
+    transparent 70%
+  );
+
+  filter: blur(120px);
+}
