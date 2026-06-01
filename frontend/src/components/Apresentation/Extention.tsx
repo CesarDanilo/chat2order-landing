@@ -6,7 +6,7 @@ export function Extention() {
       <div className="mx-auto flex max-w-7xl flex-col items-center px-8 text-center">
 
         {/* Badge */}
-        <div className="fade-up delay-1 mb-8">
+        <div className="fade-up delay-2 mb-8">
           <div className="inline-flex items-center gap-2 rounded-full border border-sky-500/20 bg-sky-500/10 px-4 py-2">
             <Puzzle size={16} className="text-sky-300" />
 
@@ -31,7 +31,28 @@ export function Extention() {
           conversas inteiras, acesse o dashboard e configure tudo sem nunca
           trocar de tela.
         </p>
+      </div>
 
+      <div className="relative mx-auto my-16 w-4/5 ">
+        <div className="absolute inset-0 -z-10 rounded-3xl bg-sky-500/20 blur-3xl" />
+
+        <div
+          className="
+          h-[550px]
+          rounded-2xl
+          border
+          border-white/10
+          bg-zinc-900/50
+          backdrop-blur-xl
+          shadow-[0_0_80px_rgba(14,165,233,0.2)]
+          flex
+          items-center
+          justify-center
+          fade-up delay-2 
+          mb-16
+        "
+        >
+        </div>
       </div>
     </section>
   );
