@@ -7,6 +7,7 @@ import { Hero } from "./components/Hero/Hero";
 import { Extention } from "./components/Apresentation/Extention";
 import { Resources } from "./components/Resources/Resources";
 import { HowItWorks } from "./components/HowItWorks/HowItWorks";
+import { TechStack } from "./components/TechStack/TechStack";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Extention />
           <Resources />
           <HowItWorks />
+          <TechStack />
         </div>
       </main>
     </>

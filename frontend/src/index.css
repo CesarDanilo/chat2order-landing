@@ -30,3 +30,7 @@
 .delay-4 {
   animation-delay: 0.55s;
 }
+
+html {
+  scroll-behavior: smooth;
+}

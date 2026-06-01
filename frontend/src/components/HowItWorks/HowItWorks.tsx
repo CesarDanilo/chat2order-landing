@@ -29,7 +29,7 @@ const STEPS: Step[] = [
 
 function StepCard({ number, title, description }: Step) {
   return (
-    <div className="flex flex-col gap-6         rounded-2xl
+    <div className="flex flex-col gap-6 rounded-2xl
         border
         border-sky-500/10
         bg-[#0B1220]
