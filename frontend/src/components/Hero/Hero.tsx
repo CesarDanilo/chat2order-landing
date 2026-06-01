@@ -2,7 +2,7 @@ import { ArrowRight, CirclePlay, Sparkles } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className="mx-auto flex max-w-5xl flex-col items-center pt-28 text-center">
+    <section className="mx-auto flex max-w-5xl flex-col items-center pt-16 text-center">
 
       {/* Badge */}
       <div className="fade-up delay-1 mb-8 flex items-center gap-2 rounded-full border border-sky-500/20 bg-sky-500/10 px-4 py-2">

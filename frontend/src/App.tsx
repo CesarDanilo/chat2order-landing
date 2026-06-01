@@ -10,7 +10,7 @@ function App() {
       <div className="background-grid" />
 
       <main className="relative min-h-screen">
-        <div className="container w-2/3 mx-auto px-4">
+        <div className="container flex flex-col gap-11 w-2/3 mx-auto px-4">
           <Header />
           <Hero />
           <Banner />
