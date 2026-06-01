@@ -5,6 +5,7 @@ import { TheSolution } from "./components/Resolver/TheSolution";
 import { Header } from "./components/Header/Header";
 import { Hero } from "./components/Hero/Hero";
 import { Extention } from "./components/Apresentation/Extention";
+import { Resources } from "./components/Resources/Resources";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <TheProblem /> 
           <TheSolution />
           <Extention />
+          <Resources />
         </div>
       </main>
     </>
