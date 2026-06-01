@@ -1,5 +1,6 @@
 import "./App.css";
 import { Banner } from "./components/Banner/Banner";
+import { TheProblem } from "./components/Banner/TheProblem";
 import { Header } from "./components/Header/Header";
 import { Hero } from "./components/Hero/Hero";
 
@@ -13,6 +14,7 @@ function App() {
           <Header />
           <Hero />
           <Banner />
+          <TheProblem /> 
         </div>
       </main>
     </>
