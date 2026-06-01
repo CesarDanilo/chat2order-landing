@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 .background-grid {
   position: fixed;
   inset: 0;

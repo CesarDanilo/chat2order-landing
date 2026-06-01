@@ -1,4 +1,5 @@
 import "./App.css";
+import { Header } from "./components/Header/Header";
 
 function App() {
   return (
@@ -6,7 +7,7 @@ function App() {
       <div className="background-grid" />
 
       <main className="relative min-h-screen">
-        <div>Hello, World!</div>
+        <Header />
       </main>
     </>
   );
