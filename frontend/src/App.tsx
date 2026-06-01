@@ -4,6 +4,7 @@ import { TheProblem } from "./components/Resolver/TheProblem";
 import { TheSolution } from "./components/Resolver/TheSolution";
 import { Header } from "./components/Header/Header";
 import { Hero } from "./components/Hero/Hero";
+import { Extention } from "./components/Apresentation/Extention";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Banner />
           <TheProblem /> 
           <TheSolution />
+          <Extention />
         </div>
       </main>
     </>
