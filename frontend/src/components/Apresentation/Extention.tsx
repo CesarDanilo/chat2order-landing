@@ -1,6 +1,41 @@
-import { Puzzle } from "lucide-react";
+import { Download, LayoutDashboard, Puzzle, Settings2 } from "lucide-react";
+import { CardExtencion } from "../Card/CardExtencion";
+import type { JSX } from "react";
+
+export interface ExtentionProps {
+  title: string;
+  description: string;
+  icon: JSX.Element;
+}
+
+
 
 export function Extention() {
+  const extencion_content: ExtentionProps[] = [
+    {
+      title: "Importe a conversa inteira",
+      description: "Em um clique, o plugin envia todo o histórico do WhatsApp Web para dentro do Chat2Order — sem copiar e colar.",
+      icon: <Download
+        size={24}
+        className="text-sky-500" />
+    },
+    {
+      title: "Acesso direto ao dashboard",
+      description: "Abra o painel de pedidos sem sair do WhatsApp. Tudo o que entra na conversa aparece estruturado no sistema.",
+      icon: <LayoutDashboard
+        size={24}
+        className="text-sky-500"
+      />
+    },
+    {
+      title: "Configurações completas",
+      description: "Equipe copiando conversas para planilhas em vez de atender clientes.",
+      icon: <Settings2
+        size={24}
+        className="text-sky-500"
+      />
+    }
+  ]
   return (
     <section className="py-24">
       <div className="mx-auto flex max-w-7xl flex-col items-center px-8 text-center">
@@ -53,6 +88,16 @@ export function Extention() {
         "
         >
         </div>
+      </div>
+      <div className="flex flex-wrap justify-center gap-8">
+        {extencion_content.map((content, index) => (
+          <CardExtencion
+            key={index}
+            icon={content.icon}
+            title={content.title}
+            description={content.description}
+          />
+        ))}
       </div>
     </section>
   );
