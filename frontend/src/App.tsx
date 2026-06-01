@@ -1,7 +1,7 @@
 import "./App.css";
 import { Banner } from "./components/Banner/Banner";
-import { TheProblem } from "./components/Banner/TheProblem";
-import { TheSolution } from "./components/Banner/TheSolution";
+import { TheProblem } from "./components/Resolver/TheProblem";
+import { TheSolution } from "./components/Resolver/TheSolution";
 import { Header } from "./components/Header/Header";
 import { Hero } from "./components/Hero/Hero";
 
