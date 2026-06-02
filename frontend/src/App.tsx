@@ -9,6 +9,7 @@ import { Resources } from "./components/Resources/Resources";
 import { HowItWorks } from "./components/HowItWorks/HowItWorks";
 import { TechStack } from "./components/TechStack/TechStack";
 import { SocialProof } from "./components/SocialProof/SocialProof";
+import { PricingSection } from "./components/PricingSection/PricingSection";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <HowItWorks />
           <TechStack />
           <SocialProof />
+          <PricingSection />
         </div>
       </main>
     </>
