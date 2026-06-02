@@ -4,7 +4,6 @@ import { useState } from "react";
 import {
   ExternalLink,
   Menu,
-  MessageSquare,
   X,
 } from "lucide-react";
 

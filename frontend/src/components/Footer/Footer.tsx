@@ -1,5 +1,3 @@
-import { MessageSquare } from "lucide-react";
-
 export function Footer() {
   return (
     <footer
