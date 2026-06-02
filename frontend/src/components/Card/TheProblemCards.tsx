@@ -1,4 +1,5 @@
-import type { Problem } from "../Banner/TheProblem";
+import type { Problem } from "../Resolver/TheProblem";
+
 
 export function TheProblemCards({
   title,

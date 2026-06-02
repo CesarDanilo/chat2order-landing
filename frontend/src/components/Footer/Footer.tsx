@@ -62,14 +62,9 @@ export function Footer() {
                   justify-center
 
                   rounded-lg
-
-                  bg-sky-500
                 "
               >
-                <MessageSquare
-                  size={16}
-                  className="text-white"
-                />
+                <img src="../public/icon.png" alt="Logo" />
               </div>
 
               <span

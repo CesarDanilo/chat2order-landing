@@ -57,11 +57,10 @@ export function Header() {
               items-center
               justify-center
               rounded-lg
-              bg-sky-500
               text-white
             "
           >
-            <MessageSquare size={18} />
+            <img src="../public/icon.png" alt="Logo" />
           </div>
 
           <span
