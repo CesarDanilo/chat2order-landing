@@ -8,6 +8,7 @@ import { Extention } from "./components/Apresentation/Extention";
 import { Resources } from "./components/Resources/Resources";
 import { HowItWorks } from "./components/HowItWorks/HowItWorks";
 import { TechStack } from "./components/TechStack/TechStack";
+import { SocialProof } from "./components/SocialProof/SocialProof";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Resources />
           <HowItWorks />
           <TechStack />
+          <SocialProof />
         </div>
       </main>
     </>
