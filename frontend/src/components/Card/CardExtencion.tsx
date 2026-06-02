@@ -1,32 +1,67 @@
 import type { ExtentionProps } from "../Apresentation/Extention";
 
-export function CardExtencion({ icon, title, description }: ExtentionProps) {
+export function CardExtencion({
+  icon,
+  title,
+  description,
+}: ExtentionProps) {
   return (
     <div
       className="
-        w-[360px]
+        w-full
+
         rounded-2xl
         border
         border-sky-500/10
+
         bg-[#0B1220]
+
         p-5
+        sm:p-6
+
         transition-all
         duration-300
+
         hover:border-sky-500/20
         hover:shadow-[0_0_40px_rgba(14,165,233,0.08)]
       "
     >
-      <div className="mb-4 hover:text-sky-500 transition-colors duration-300">
+      <div
+        className="
+          mb-4
+          text-sky-500
+          transition-colors
+          duration-300
+        "
+      >
         {icon}
       </div>
 
-      <h3 className="mb-2 text-base font-semibold text-white">
+      <h3
+        className="
+          mb-2
+
+          text-base
+          font-semibold
+          text-white
+
+          sm:text-lg
+        "
+      >
         {title}
       </h3>
 
-      <p className="text-sm leading-relaxed text-zinc-400">
+      <p
+        className="
+          text-sm
+          leading-relaxed
+          text-zinc-400
+
+          sm:text-base
+        "
+      >
         {description}
       </p>
     </div>
-  )
+  );
 }

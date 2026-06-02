@@ -52,15 +52,79 @@ const FEATURES: Feature[] = [
   },
 ];
 
-function FeatureCard({ icon, title, description }: Feature) {
+function FeatureCard({
+  icon,
+  title,
+  description,
+}: Feature) {
   return (
-    <div className="group flex flex-col gap-4 rounded-xl p-8 transition-colors duration-300 hover:bg-white/[0.04]">
-      <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-cyan-400/10 ring-1 ring-cyan-400/20 transition-colors duration-300 group-hover:bg-cyan-400/15">
+    <div
+      className="
+        group
+        flex
+        h-full
+        flex-col
+        gap-4
+
+        rounded-2xl
+
+        border
+        border-white/5
+
+        bg-white/[0.02]
+
+        p-6
+
+        transition-all
+        duration-300
+
+        hover:border-cyan-400/20
+        hover:bg-white/[0.04]
+      "
+    >
+      <div
+        className="
+          flex
+          h-10
+          w-10
+          items-center
+          justify-center
+
+          rounded-lg
+
+          bg-cyan-400/10
+
+          ring-1
+          ring-cyan-400/20
+        "
+      >
         {icon}
       </div>
-      <div className="flex flex-col gap-2">
-        <h3 className="text-base font-semibold text-white">{title}</h3>
-        <p className="text-sm leading-relaxed text-slate-400">{description}</p>
+
+      <div className="flex flex-1 flex-col gap-2">
+        <h3
+          className="
+            text-base
+            font-semibold
+            text-white
+
+            sm:text-lg
+          "
+        >
+          {title}
+        </h3>
+
+        <p
+          className="
+            text-sm
+            leading-relaxed
+            text-slate-400
+
+            sm:text-base
+          "
+        >
+          {description}
+        </p>
       </div>
     </div>
   );
@@ -68,26 +132,94 @@ function FeatureCard({ icon, title, description }: Feature) {
 
 export function Resources() {
   return (
-    <section className="w-full px-6 py-24">
-      <div className="mx-auto mb-16 max-w-2xl text-center">
-        <p className="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-sky-400">
-          Recursos
-        </p>
-        <h2 className="text-4xl font-extrabold leading-tight tracking-tight text-white md:text-5xl">
-          Feito para operações que não podem esperar.
-        </h2>
-      </div>
+    <section
+      id="recursos"
+      className="
+        w-full
+        py-16
 
-      <div className="mx-auto max-w-6xl overflow-hidden rounded-2xl">
-        <div className="grid grid-cols-1 md:grid-cols-3">
-          {FEATURES.slice(0, 3).map((feature) => (
-            <FeatureCard key={feature.title} {...feature} />
-          ))}
+        sm:py-20
+
+        lg:py-24
+      "
+    >
+      <div
+        className="
+          mx-auto
+          max-w-7xl
+
+          px-4
+
+          sm:px-6
+
+          lg:px-8
+        "
+      >
+        {/* Header */}
+        <div
+          className="
+            mx-auto
+            mb-12
+
+            max-w-3xl
+
+            text-center
+
+            lg:mb-16
+          "
+        >
+          <p
+            className="
+              mb-4
+
+              text-xs
+              font-semibold
+              uppercase
+
+              tracking-[0.2em]
+
+              text-sky-400
+            "
+          >
+            Recursos
+          </p>
+
+          <h2
+            className="
+              text-3xl
+              font-extrabold
+              leading-tight
+              tracking-tight
+              text-white
+
+              sm:text-4xl
+
+              lg:text-5xl
+            "
+          >
+            Feito para operações que
+            não podem esperar.
+          </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3">
-          {FEATURES.slice(3).map((feature) => (
-            <FeatureCard key={feature.title} {...feature} />
+        {/* Grid */}
+        <div
+          className="
+            grid
+
+            grid-cols-1
+            gap-5
+
+            md:grid-cols-2
+
+            xl:grid-cols-3
+          "
+        >
+          {FEATURES.map((feature) => (
+            <FeatureCard
+              key={feature.title}
+              {...feature}
+            />
           ))}
         </div>
       </div>
