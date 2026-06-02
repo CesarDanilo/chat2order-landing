@@ -10,6 +10,8 @@ import { HowItWorks } from "./components/HowItWorks/HowItWorks";
 import { TechStack } from "./components/TechStack/TechStack";
 import { SocialProof } from "./components/SocialProof/SocialProof";
 import { PricingSection } from "./components/PricingSection/PricingSection";
+import { CtaSection } from "./components/CtaSection/CtaSection";
+import { Footer } from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -29,7 +31,9 @@ function App() {
           <TechStack />
           <SocialProof />
           <PricingSection />
+          <CtaSection />
         </div>
+          <Footer />
       </main>
     </>
   );

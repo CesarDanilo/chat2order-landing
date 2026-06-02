@@ -2,7 +2,7 @@ import { Check, Zap } from "lucide-react";
 
 export function PricingSection() {
   return (
-    <section className="relative overflow-hidden py-24">
+    <section className="relative overflow-hidden py-24 fade-up delay-2">
       {/* Glow */}
       <div className="absolute left-1/2 top-20 h-[500px] w-[500px] -translate-x-1/2 rounded-full bg-sky-500/20 blur-[180px]" />
 

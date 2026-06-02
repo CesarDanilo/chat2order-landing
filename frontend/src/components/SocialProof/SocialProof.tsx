@@ -50,7 +50,7 @@ export function SocialProof({
   testimonials = DEFAULT_TESTIMONIALS,
 }: SocialProofProps) {
   return (
-    <section className="w-full space-y-4 px-4 py-8">
+    <section className="w-full space-y-4 px-10 py-24 fade-up delay-2">
       {/* Metrics */}
       <div className="rounded-2xl border border-white/[0.08] bg-white/[0.03] p-8">
         <div className="grid grid-cols-2 gap-8 sm:grid-cols-4">
