@@ -31,7 +31,7 @@ export function Banner() {
         delay-2
         "
       >
-        <img className="rounded-3xl" src="../public/banner4.png" alt="banner" />
+        <img className="rounded-3xl" src="/banner4.png" alt="banner" />
       </div>
     </section>
   );

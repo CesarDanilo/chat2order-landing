@@ -66,7 +66,7 @@ export function Header() {
               text-white
             "
           >
-            <img src="../public/icon.png" alt="Logo" />
+            <img src="/icon.png" alt="Logo" />
           </div>
 
           <span

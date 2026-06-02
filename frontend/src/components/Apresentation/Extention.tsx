@@ -209,7 +209,7 @@ export function Extention() {
             shadow-[0_0_80px_rgba(14,165,233,0.2)]
           "
         >
-          <img className="rounded-3xl" src="../public/banner2.png" alt="banner"  />
+          <img className="rounded-3xl" src="/banner2.png" alt="banner"  />
         </div>
       </div>
 

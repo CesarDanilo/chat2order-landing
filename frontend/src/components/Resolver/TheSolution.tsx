@@ -190,7 +190,7 @@ export function TheSolution() {
               lg:ml-auto
             "
           >
-            <img className="rounded-3xl" src="../public/banner3.png" alt="banner"  />
+            <img className="rounded-3xl" src="/banner3.png" alt="banner"  />
           </div>
         </div>
       </div>

@@ -62,7 +62,7 @@ export function Footer() {
                   rounded-lg
                 "
               >
-                <img src="../public/icon.png" alt="Logo" />
+                <img src="/icon.png" alt="Logo" />
               </div>
 
               <span
