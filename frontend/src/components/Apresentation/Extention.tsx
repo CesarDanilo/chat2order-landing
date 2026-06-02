@@ -52,6 +52,7 @@ const EXTENCION_CONTENT: ExtentionProps[] = [
 export function Extention() {
   return (
     <section
+    id="como-funciona"
       className="
         py-16
         sm:py-20
@@ -208,7 +209,7 @@ export function Extention() {
             shadow-[0_0_80px_rgba(14,165,233,0.2)]
           "
         >
-          {/* Screenshot da extensão */}
+          <img className="rounded-3xl" src="../public/banner2.png" alt="banner"  />
         </div>
       </div>
 

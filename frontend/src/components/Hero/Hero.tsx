@@ -8,7 +8,7 @@ import {
 
 export function Hero() {
   return (
-    <section className="w-full py-16 sm:py-20 md:py-24 fade-up delay-2">
+    <section id="home" className="w-full py-16 sm:py-20 md:py-24 fade-up delay-2">
       <div className="mx-auto flex max-w-5xl flex-col items-center px-4 sm:px-6 text-center">
 
         {/* Badge */}

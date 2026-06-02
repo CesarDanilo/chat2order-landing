@@ -8,6 +8,7 @@ import {
 } from "lucide-react";
 
 const NAV_LINKS = [
+  { href: "#home", label: "Início" },
   { href: "#problem", label: "Problema" },
   { href: "#recursos", label: "Recursos" },
   { href: "#como-funciona", label: "Como funciona" },
@@ -21,7 +22,13 @@ export function Header() {
   return (
     <header
       className="
-        fade-up delay-2
+        fixed
+        top-0
+        left-0
+        right-0
+        z-50
+        fade-up
+        delay-2
         px-3
         pt-3
         sm:px-4
@@ -40,7 +47,7 @@ export function Header() {
           rounded-full
           border
           border-white/10
-          bg-black/20
+          bg-black/50
           px-4
           backdrop-blur-xl
           sm:px-6
