@@ -1,4 +1,5 @@
 import "./App.css";
+
 import { Banner } from "./components/Banner/Banner";
 import { TheProblem } from "./components/Resolver/TheProblem";
 import { TheSolution } from "./components/Resolver/TheSolution";
@@ -19,11 +20,11 @@ function App() {
       <div className="background-grid" />
 
       <main className="relative min-h-screen">
-        <div className="container flex flex-col gap-11 w-2/3 mx-auto px-4">
+        <div className="flex flex-col">
           <Header />
           <Hero />
           <Banner />
-          <TheProblem /> 
+          <TheProblem />
           <TheSolution />
           <Extention />
           <Resources />
@@ -33,7 +34,8 @@ function App() {
           <PricingSection />
           <CtaSection />
         </div>
-          <Footer />
+
+        <Footer />
       </main>
     </>
   );
